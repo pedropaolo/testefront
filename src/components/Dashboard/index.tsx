@@ -1,14 +1,9 @@
+import { UserList } from "../userList";
 
-import { UserList } from '../userList';
-
-export function Dashboard()
-{
-    return(
-        
-        <>
-        <UserList />
-        </>
-            
-        
-    )
+export function Dashboard() {
+  return (
+    <>
+      <UserList />
+    </>
+  );
 }
